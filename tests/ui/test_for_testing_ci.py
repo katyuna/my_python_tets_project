@@ -8,7 +8,7 @@ class TestRegistrationForm:
         Заполняет форму регистрации и проверяет
         что после отправки появился блок с результатом.
         """
-        page = RegistrationPage(browser)
+        page = RegisвыфаыпроллtrationPage(browser)
         page.open()
 
         page.fill_first_name("Alisa")
